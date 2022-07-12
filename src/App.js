@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header/Header';
 import SimpleBottomNavigation from './components/Navbar/Navbar';
-import { Container } from "@material-ui/core";
+import  Container from "@mui/material/Container";
 import Trending from './Pages/Trending/Trending';
 import Movies from './Pages/Movies/Movies';
 import Series from './Pages/Series/Series';
