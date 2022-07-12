@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import axios from "axios";
 import {Button, TextField, Tabs, Tab} from '@mui/material';
-import SearchIcon from "@material-ui/icons/Search";
+import SearchIcon from "@mui/icons-material/Search";
 import CustomPagination from "../../components/Pagination/CustomPagination";
 import ComponentCard from "../../components/ComponentCard/ComponentCard";
 import { ThemeProvider } from "@mui/material/styles";
