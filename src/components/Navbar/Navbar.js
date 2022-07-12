@@ -2,10 +2,10 @@ import React, {useEffect} from 'react';
 import Box from '@mui/material/Box';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
-import TvIcon from "@material-ui/icons/Tv";
-import MovieIcon from "@material-ui/icons/Movie";
-import SearchIcon from "@material-ui/icons/Search";
-import WhatshotIcon from "@material-ui/icons/Whatshot";
+import TvIcon from "@mui/icons-material/Tv";
+import MovieIcon from "@mui/icons-material/Movie";
+import SearchIcon from "@mui/icons-material/Search";
+import WhatshotIcon from "@mui/icons-material/Whatshot";
 import {useNavigate} from 'react-router-dom';
 
 export default function SimpleBottomNavigation() {
